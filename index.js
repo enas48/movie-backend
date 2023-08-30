@@ -14,7 +14,7 @@ app.use(express.urlencoded({extended:false}));
 const projectRouter = require('./routes/projectRoutes');
 const userRouter = require('./routes/userRoutes');
 const profileRouter = require('./routes/porfileRoutes');
-const bookmarkRouter = require('./routes/bookmarkRoutes');
+const bookmarkRouter = require('./routes/BookmarkRoutes');
 const favouriteRouter=require('./routes/favouriteRoutes');
 
 app.get('/', (req, res)=>{
